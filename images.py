@@ -7,11 +7,18 @@ from google.cloud import storage
 # the two functions to look at are download_image_from_filename and
 # download_images. the two below variables are configuration.
 
-# sample usage of download_image_from_filename:
+# usage:
+# 1. activate virtual environment: source venv/bin/activate
+#
+# 2. enter python shell: ipython
+#
+# 3. download images
+#
+# 3a) sample usage of download_image_from_filename:
 #    from images import download_image_from_filename
 #    download_image_from_filename('Citizen Science 2020/area/BCSW20-5', '.')
 
-# sample usage of download_images:
+# 3b) sample usage of download_images:
 #    from images import download_iamges
 #    download_images('Citizen Science 2020/area/', 'CS20/area/')
 
