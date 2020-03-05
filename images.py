@@ -27,7 +27,7 @@ default_bucket = 'citizensciencewater.appspot.com'
 service_account = 'storage-reader-service-account.json'
 
 if not os.path.exists(service_account):
-    e = "To use this script, download service account credentials into ./service-account.json"
+    e = "To use this script, copy service account credentials into ./storage-reader-service-account.json"
     raise ValueError(e)
 
 mime = magic.Magic(mime=True)
