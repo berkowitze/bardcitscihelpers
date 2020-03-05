@@ -1,0 +1,3 @@
+google-cloud-storage==1.26.0
+python-magic==0.4.15
+ipython

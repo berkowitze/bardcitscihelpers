@@ -1,0 +1,7 @@
+service-account.json
+*.jpg
+*.png
+*.json
+venv
+.DS_Store
+__pycache__
