@@ -8,6 +8,6 @@ From there, you need to have Python 3+ (python.org if you do not!) installed, wi
 
 With python 3 setup, run `bash setup.sh` to set up the tools.
 
-Instructions for use will be printed once setup is complete.
+Instructions for use will be printed once setup is complete. Further documentation can be found in `images.py`.
 
 
